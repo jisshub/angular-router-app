@@ -10,6 +10,8 @@
     </div>
   </div>
   <div class="col-xs-12 col-sm-4">
+    <!-- navigate to users page from current page - set relative path routerLink -->
+    <a [routerLink]="['/users']" routerLinkActive="router-link-active">Reload to Users</a>
     <app-edit-server></app-edit-server>
     <hr>
     <app-server></app-server>
